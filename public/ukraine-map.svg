@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc"/>
+  
+  <!-- Ukraine Map Outline -->
+  <path d="M400,150 C550,150 650,250 650,350 C650,450 550,500 400,500 C250,500 150,450 150,350 C150,250 250,150 400,150 Z" 
+        fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+  
+  <!-- Regions - Simplified for illustration -->
+  <!-- Western Regions -->
+  <path d="M200,300 L250,250 L300,300 L250,350 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <path d="M250,250 L300,200 L350,250 L300,300 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <path d="M300,300 L350,250 L400,300 L350,350 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  
+  <!-- Central Regions -->
+  <path d="M350,350 L400,300 L450,350 L400,400 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <path d="M400,300 L450,250 L500,300 L450,350 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  
+  <!-- Eastern Regions - Occupied -->
+  <path d="M500,300 L550,250 L600,300 L550,350 Z" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <path d="M550,250 L600,200 L650,250 L600,300 Z" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  
+  <!-- Region Labels - Western -->
+  <text x="250" y="300" font-family="Arial" font-size="10" fill="#1e40af">Lviv</text>
+  <text x="300" y="250" font-family="Arial" font-size="10" fill="#1e40af">Kyiv</text>
+  <text x="350" y="300" font-family="Arial" font-size="10" fill="#1e40af">Odesa</text>
+  
+  <!-- Region Labels - Central -->
+  <text x="400" y="350" font-family="Arial" font-size="10" fill="#1e40af">Dnipro</text>
+  <text x="450" y="300" font-family="Arial" font-size="10" fill="#1e40af">Kharkiv</text>
+  
+  <!-- Region Labels - Occupied -->
+  <text x="550" y="300" font-family="Arial" font-size="10" fill="#b91c1c">Donetsk</text>
+  <text x="600" y="250" font-family="Arial" font-size="10" fill="#b91c1c">Luhansk</text>
+  
+  <!-- Legend -->
+  <rect x="650" y="200" width="120" height="80" fill="white" stroke="#d1d5db" stroke-width="1" rx="4"/>
+  <text x="660" y="220" font-family="Arial" font-size="12" font-weight="bold" fill="#374151">Region Status</text>
+  
+  <circle cx="670" cy="240" r="5" fill="#22c55e"/>
+  <text x="685" y="244" font-family="Arial" font-size="11" fill="#374151">Available</text>
+  
+  <circle cx="670" cy="265" r="5" fill="#ef4444"/>
+  <text x="685" y="269" font-family="Arial" font-size="11" fill="#374151">Unavailable</text>
+</svg>

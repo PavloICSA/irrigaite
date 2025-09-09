@@ -1,0 +1,213 @@
+{
+  "title": "📘 Reference Book",
+  "subtitle": "Comprehensive agricultural reference data for irrigation planning",
+  "tabs": {
+    "soil": "Soil Water-Holding Capacity",
+    "irrigation": "Irrigation Efficiency", 
+    "crops": "Crop Root Depth & Thresholds"
+  },
+  "tabsMobile": {
+    "soil": "Soil",
+    "irrigation": "Irrigation",
+    "crops": "Crops"
+  },
+  "about": {
+    "title": "About This Reference Book",
+    "description": "This comprehensive reference provides essential data for irrigation planning. Use these values as guidelines when you don't have site-specific measurements.",
+    "dataSources": "Data Sources: FAO Irrigation and drainage paper No. 56, NC State Extension, University of Minnesota Extension, and international agricultural research"
+  },
+  "soil": {
+    "title": "Field Water-Holding Capacity by Soil Type",
+    "helpText": "Hover over headers for definitions",
+    "headers": {
+      "soilType": "Soil Type",
+      "fieldCapacity": "Average Field Water-Holding Capacity (%)",
+      "notes": "Notes"
+    },
+    "tooltips": {
+      "soilType": "Different soil types found in Ukrainian agricultural regions",
+      "fieldCapacity": "Field Capacity: The maximum amount of water the soil can hold after excess water has drained"
+    },
+    "tip": {
+      "title": "💡 Tip:",
+      "text": "Field capacity represents the optimal moisture level for most crops. Use these values when soil testing data is not available for your specific location."
+    }
+  },
+  "irrigation": {
+    "title": "Irrigation Efficiency by Method",
+    "helpText": "Efficiency may vary with design and maintenance",
+    "headers": {
+      "method": "Irrigation Method",
+      "efficiency": "Efficiency (%)",
+      "notes": "Notes"
+    },
+    "tooltips": {
+      "efficiency": "Percentage of applied water that actually reaches the crop root zone"
+    },
+    "note": {
+      "title": "🛈 Note:",
+      "text": "Actual efficiency depends on system design, maintenance, weather conditions, and operator skill. Regular maintenance and proper calibration can significantly improve efficiency."
+    }
+  },
+  "crops": {
+    "title": "Effective Root Depth & Watering Threshold by Crop",
+    "resultsCount": "{{count}} of {{total}} crops shown",
+    "searchPlaceholder": "Search crops...",
+    "headers": {
+      "crop": "Crop",
+      "effectiveRootDepth": "Effective Root Depth (mm)",
+      "wateringThreshold": "Watering Threshold (% of FC)",
+      "notes": "Notes"
+    },
+    "tooltips": {
+      "effectiveRootDepth": "Depth of soil layer where most root activity occurs",
+      "wateringThreshold": "Percentage of field capacity at which irrigation should begin"
+    },
+    "categories": {
+      "all": "All Categories",
+      "vegetables": "Vegetables",
+      "cereals": "Cereals", 
+      "legumes": "Legumes",
+      "orchards": "Orchards",
+      "industrial": "Industrial Crops"
+    },
+    "noResults": {
+      "text": "No crops found matching your search criteria.",
+      "clearFilters": "Clear filters"
+    },
+    "importantNotes": {
+      "title": "📋 Important Notes:",
+      "rootDepthRanges": "Root depth ranges are rounded to the nearest 50 mm",
+      "wateringThreshold": "Watering threshold = % of field capacity where irrigation should begin",
+      "valuesSources": "Values are sourced from FAO 56, NC State, and UMN Extension",
+      "siteSpecific": "Site-specific conditions may require adjustments to these general guidelines"
+    }
+  },
+  "data": {
+    "soilTypes": {
+      "podzolized": "Podzolized soils",
+      "chernozems": "Chernozems",
+      "chestnut": "Chestnut soils",
+      "salinized": "Salinized soils"
+    },
+    "soilNotes": {
+      "podzolized": "Sandy texture, low organic matter, lower water retention",
+      "chernozems": "Loamy, high organic matter, excellent water retention",
+      "chestnut": "Moderate humus, good retention",
+      "salinized": "Variable due to salinity, generally lower available water"
+    },
+    "irrigationMethods": {
+      "surface": "Surface irrigation",
+      "sprinkler": "Sprinkler irrigation",
+      "drip": "Drip irrigation"
+    },
+    "irrigationNotes": {
+      "surface": "Prone to runoff and evaporation losses",
+      "sprinkler": "More uniform, but wind and evaporation cause some losses",
+      "drip": "Most efficient; delivers water directly to root zone"
+    },
+    "cropNotes": {
+      "broccoli": "Sensitive to water stress, similar to cauliflower.",
+      "cabbage": "Similar to broccoli.",
+      "carrots": "Moderate tolerance, root crop.",
+      "cauliflower": "Sensitive to water stress.",
+      "celery": "Similar to leafy greens.",
+      "lettuce": "Shallow roots, sensitive to water stress.",
+      "oniondry": "Similar to table beet.",
+      "oniongreen": "Similar to dry onion.",
+      "onionseed": "Similar to dry onion.",
+      "spinach": "Shallow roots, sensitive to water stress.",
+      "radish": "Similar to table beet.",
+      "eggplant": "Similar to tomato.",
+      "sweetpeppersbell": "Similar to cucumber.",
+      "tomato": "Moderate tolerance to depletion, per query example.",
+      "cantaloupe": "Similar to winter squash.",
+      "cucumber": "Moderate tolerance to depletion.",
+      "pumpkinwintersquash": "Higher tolerance due to deeper roots.",
+      "squashzucchini": "Similar to cucumber.",
+      "sweetmelons": "Similar to cantaloupe.",
+      "watermelons": "Similar to winter squash.",
+      "beetstable": "Moderate tolerance to depletion.",
+      "potato": "Sensitive to water stress.",
+      "sweetpotato": "Similar to carrots.",
+      "sugarbeet": "Similar to table beet.",
+      "barleyoatswheat": "Typical for cereals, range reflects variability.",
+      "beansdry": "Similar to green beans.",
+      "beansgreen": "Moderate tolerance to depletion.",
+      "citrus": "High tolerance due to deep roots.",
+      "cotton": "High tolerance due to deep roots.",
+      "deciduousorchard": "High tolerance due to deep roots.",
+      "fababeanbroadbean": "Similar to beans.",
+      "flax": "Similar to grains.",
+      "grainssmall": "Similar to barley/oats/wheat.",
+      "grapes": "High tolerance due to deep roots.",
+      "groundnut": "Similar to peanuts, sensitive to water stress.",
+      "lentil": "Similar to beans.",
+      "maizegrain": "Moderate tolerance to depletion, per query example.",
+      "maizesweet": "Similar to grain maize.",
+      "millet": "Similar to grains.",
+      "olives": "High tolerance due to deep roots.",
+      "peas": "Similar to beans.",
+      "pistachios": "High tolerance due to deep roots.",
+      "rice": "Requires high soil moisture due to flooded conditions.",
+      "safflower": "Similar to sunflower.",
+      "sesame": "Similar to grains.",
+      "sorghum": "Similar to maize.",
+      "soybeans": "Moderate tolerance to depletion.",
+      "walnuts": "High tolerance due to deep roots.",
+      "winterwheat": "Similar to wheat."
+    },
+    "cropNames": {
+      "barleyoatswheat": "Barley/Oats/Wheat",
+      "beansdry": "Beans (dry)",
+      "beansgreen": "Beans (green)",
+      "beetstable": "Beets (table)",
+      "broccoli": "Broccoli",
+      "cabbage": "Cabbage",
+      "cantaloupe": "Cantaloupe",
+      "carrots": "Carrots",
+      "cauliflower": "Cauliflower",
+      "celery": "Celery",
+      "citrus": "Citrus",
+      "cotton": "Cotton",
+      "cucumber": "Cucumber",
+      "deciduousorchard": "Deciduous Orchard",
+      "eggplant": "Eggplant",
+      "fababeanbroadbean": "Faba bean, broad bean",
+      "flax": "Flax",
+      "grainssmall": "Grains (small)",
+      "grapes": "Grapes",
+      "groundnut": "Groundnut",
+      "lentil": "Lentil",
+      "lettuce": "Lettuce",
+      "maizegrain": "Maize (grain)",
+      "maizesweet": "Maize (sweet)",
+      "millet": "Millet",
+      "olives": "Olives",
+      "oniondry": "Onion (dry)",
+      "oniongreen": "Onion (green)",
+      "onionseed": "Onion (seed)",
+      "peas": "Peas",
+      "pistachios": "Pistachios",
+      "potato": "Potato",
+      "pumpkinwintersquash": "Pumpkin, Winter squash",
+      "radish": "Radish",
+      "rice": "Rice",
+      "safflower": "Safflower",
+      "sesame": "Sesame",
+      "sorghum": "Sorghum",
+      "soybeans": "Soybeans",
+      "spinach": "Spinach",
+      "squashzucchini": "Squash, Zucchini",
+      "sugarbeet": "Sugarbeet",
+      "sunflower": "Sunflower",
+      "sweetmelons": "Sweet melons",
+      "sweetpeppersbell": "Sweet peppers (bell)",
+      "sweetpotato": "Sweet potato",
+      "tomato": "Tomato",
+      "walnuts": "Walnuts",
+      "watermelons": "Watermelons",
+      "winterwheat": "Winter Wheat"
+    }
+  }
+}

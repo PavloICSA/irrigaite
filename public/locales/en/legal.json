@@ -1,0 +1,337 @@
+{
+  "terms": {
+    "title": "Terms of Use",
+    "subtitle": "Please read these terms carefully before using our service",
+    "lastUpdated": "Last updated: {{date}}",
+    "importantNotice": {
+      "title": "Important Notice",
+      "content": "These terms of use govern your access to and use of the IrrigAIte UA Evapotranspiration Calculator. By using our service, you agree to be bound by these terms."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "paragraph1": "By accessing or using the IrrigAIte UA Evapotranspiration Calculator (\"Service\"), you agree to be bound by these Terms of Use (\"Terms\"). If you do not agree to these Terms, please do not use our Service.",
+        "paragraph2": "We may update these Terms from time to time. Your continued use of the Service after any changes constitutes acceptance of the new Terms. We will notify users of significant changes through email or prominent notice on our service."
+      },
+      "services": {
+        "title": "2. Description of Service",
+        "paragraph1": "IrrigAIte UA provides an evapotranspiration calculator specifically designed for Ukrainian agricultural conditions. The Service includes:",
+        "features": {
+          "pet": "Potential evapotranspiration (PET) calculations using regional ML models",
+          "etc": "Crop evapotranspiration (ETc) calculations based on FAO guidelines",
+          "irrigation": "Irrigation recommendations based on soil moisture and crop requirements",
+          "map": "Interactive map interface for region selection",
+          "auth": "User authentication and account management",
+          "history": "Saving and retrieving user calculation history",
+          "license": "License key activation and management for additional evaluations",
+          "education": "Educational resources and guidelines"
+        }
+      },
+      "usage": {
+        "title": "3. Use of Service",
+        "paragraph1": "You may use our Service for lawful purposes related to agricultural planning and education. You agree to:",
+        "rules": {
+          "accuracy": "Provide accurate information when using the calculator and creating your account",
+          "purpose": "Use the Service only for its intended agricultural and educational purposes",
+          "security": "Maintain the security of your account credentials",
+          "license": "Use license keys responsibly and for individual use only (not for sharing or resale)",
+          "interference": "Not attempt to interfere with or disrupt the Service or its security measures",
+          "legal": "Not use the Service for any illegal or unauthorized purposes",
+          "ip": "Respect the intellectual property rights of the Service",
+          "reverse": "Not attempt to reverse engineer or extract proprietary algorithms"
+        }
+      },
+      "userAccounts": {
+        "title": "4. User Accounts and Data",
+        "paragraph1": "To access certain features of the Service, you must create an account. You are responsible for:",
+        "responsibilities": {
+          "confidentiality": "Maintaining the confidentiality of your account credentials",
+          "activities": "All activities that occur under your account",
+          "unauthorized": "Notifying us immediately of any unauthorized use of your account",
+          "accuracy": "Ensuring the accuracy of information you provide"
+        },
+        "paragraph2": "We store your calculation history, user profile, and license key usage data to provide personalized services. You can manage and delete your data through your account settings or by contacting support."
+      },
+      "licenseKeys": {
+        "title": "5. License Keys and Evaluations",
+        "paragraph1": "License keys provide additional PET evaluations beyond the free tier. By purchasing and using license keys:",
+        "terms": {
+          "activation": "Each license key can only be activated once and is non-transferable",
+          "individual": "License keys are for individual use and may not be shared, resold, or distributed",
+          "expiration": "Evaluations do not expire but are consumed with each PET calculation",
+          "fraud": "We reserve the right to deactivate keys obtained through fraudulent means",
+          "refunds": "Refunds are handled on a case-by-case basis for unused evaluations",
+          "support": "License key purchases help support ongoing development and API costs"
+        }
+      },
+      "disclaimer": {
+        "title": "6. Disclaimer of Warranties",
+        "importantDisclaimer": {
+          "title": "IMPORTANT DISCLAIMER:",
+          "content": "The calculations and recommendations provided by this Service are for informational purposes only. Actual irrigation decisions should consider local conditions, soil testing, weather patterns, and professional agricultural advice."
+        },
+        "paragraph1": "The Service is provided \"as is\" without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.",
+        "paragraph2": "We do not warrant that the Service will be uninterrupted, error-free, or completely secure. Weather data, calculations, and stored information may contain inaccuracies or be subject to technical failures."
+      },
+      "liability": {
+        "title": "7. Limitation of Liability",
+        "paragraph1": "In no event shall IrrigAIte UA, its operators, or contributors be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to:",
+        "damages": {
+          "profits": "Loss of profits or revenue",
+          "crops": "Crop losses or agricultural damages",
+          "business": "Business interruption",
+          "data": "Loss of data or information",
+          "substitute": "Cost of substitute goods or services",
+          "access": "Unauthorized access to or alteration of your data"
+        },
+        "paragraph2": "This limitation applies regardless of whether such damages arise from contract, tort, negligence, or any other legal theory, and even if we have been advised of the possibility of such damages."
+      },
+      "privacy": {
+        "title": "8. Data and Privacy",
+        "paragraph1": "We collect and process personal information as described in our Privacy Policy. Key points include:",
+        "points": {
+          "accounts": "User accounts are required for saving calculations and activating license keys",
+          "storage": "We store your calculation history, user profile, and license key usage data",
+          "security": "Data is stored securely using Supabase's infrastructure with Row Level Security",
+          "access": "You can access, modify, and delete your data through your account",
+          "selling": "We do not sell your personal information to third parties"
+        },
+        "paragraph2": "For comprehensive details on data collection, storage, and processing, please refer to our",
+        "privacyLink": "Privacy Policy"
+      },
+      "scientific": {
+        "title": "9. Scientific Accuracy",
+        "paragraph1": "While we strive for scientific accuracy using established methodologies, users should be aware that:",
+        "limitations": {
+          "models": "Calculations are based on mathematical models and may not account for all local factors",
+          "weather": "Weather data accuracy depends on third-party sources (OpenWeatherMap API)",
+          "coefficients": "Crop coefficients are based on standard FAO guidelines and may vary by cultivar",
+          "soil": "Soil parameters should be verified through local testing when possible",
+          "validation": "Results should be validated against local agricultural expertise and field observations",
+          "regional": "Regional models are calibrated for Ukrainian conditions but may require local adjustments"
+        }
+      },
+      "intellectualProperty": {
+        "title": "10. Intellectual Property",
+        "paragraph1": "The Service, including its design, functionality, and content, is protected by intellectual property laws. The underlying agricultural formulas and FAO guidelines are based on publicly available scientific research.",
+        "paragraph2": "You may not reproduce, distribute, or create derivative works based on the Service without permission, except for personal agricultural use. The ML models and regional coefficients represent proprietary research and development.",
+        "paragraph3": "You retain ownership of the agricultural data you input, but grant us a license to use it for providing and improving the Service."
+      },
+      "availability": {
+        "title": "11. Service Availability",
+        "paragraph1": "We strive to maintain high service availability, but cannot guarantee uninterrupted access:",
+        "conditions": {
+          "maintenance": "The Service may be temporarily unavailable due to maintenance, updates, or technical issues",
+          "dependencies": "Third-party dependencies (weather APIs, Supabase) may affect service availability",
+          "notice": "We will provide reasonable notice for planned maintenance when possible",
+          "security": "Your data remains secure during service interruptions"
+        }
+      },
+      "termination": {
+        "title": "12. Termination",
+        "paragraph1": "We reserve the right to terminate or suspend access to the Service at any time, with or without prior notice, for any reason, including violation of these Terms. You may also terminate your account at any time.",
+        "paragraph2": "Upon termination, your right to use the Service will cease immediately. We will retain your data according to our Privacy Policy and may provide you with an opportunity to export your data before permanent deletion."
+      },
+      "governingLaw": {
+        "title": "13. Governing Law",
+        "content": "These Terms shall be governed by and construed in accordance with applicable laws. Any disputes arising from these Terms or the use of the Service shall be resolved through appropriate legal channels. We will make reasonable efforts to resolve disputes amicably before pursuing legal action."
+      },
+      "contact": {
+        "title": "14. Contact Information",
+        "paragraph1": "If you have any questions about these Terms of Use, need support with your account, or wish to report issues, please contact us through the appropriate channels provided on our website.",
+        "lastUpdated": "Last updated: {{date}}"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "How we protect and handle your information",
+    "lastUpdated": "Last updated: {{date}}",
+    "commitment": {
+      "title": "Our Privacy Commitment",
+      "content": "We are committed to protecting your privacy and ensuring the security of any information you provide while using the IrrigAIte UA calculator. We only collect data necessary to provide and improve our services."
+    },
+    "sections": {
+      "informationCollection": {
+        "title": "1. Information We Collect",
+        "userProvided": {
+          "title": "Information You Provide",
+          "intro": "When creating an account and using our calculator, you may provide:",
+          "items": {
+            "account": "Account Information: Email address and password (securely handled by Supabase authentication)",
+            "agricultural": "Agricultural Data: Regional selection, crop types, planting dates, soil parameters, and irrigation settings",
+            "history": "Calculation History: Your saved PET and irrigation calculations, including results and timestamps",
+            "license": "License Key Data: License key activation records and evaluation usage tracking"
+          },
+          "important": "Important: This information is linked to your user account and stored securely in our Supabase database."
+        },
+        "automaticallyCollected": {
+          "title": "Automatically Collected Information",
+          "intro": "We may automatically collect certain technical information:",
+          "items": {
+            "browser": "Browser type and version",
+            "os": "Operating system",
+            "ip": "IP address (anonymized for analytics)",
+            "usage": "Usage statistics and page views",
+            "errors": "Error logs for service improvement",
+            "auth": "Authentication session data (managed by Supabase)"
+          }
+        }
+      },
+      "informationUsage": {
+        "title": "2. How We Use Your Information",
+        "serviceProvision": {
+          "title": "Service Provision",
+          "items": {
+            "calculate": "Calculate evapotranspiration rates",
+            "recommendations": "Provide irrigation recommendations",
+            "weather": "Fetch weather data for your region",
+            "history": "Save and retrieve your calculation history",
+            "license": "Manage your license key evaluations",
+            "personalized": "Provide personalized user experiences"
+          }
+        },
+        "serviceImprovement": {
+          "title": "Service Improvement",
+          "items": {
+            "patterns": "Analyze usage patterns",
+            "issues": "Identify and fix technical issues",
+            "accuracy": "Improve calculation accuracy",
+            "experience": "Enhance user experience",
+            "features": "Develop new features",
+            "validation": "Validate scientific models"
+          }
+        }
+      },
+      "dataStorage": {
+        "title": "3. Data Storage and Security",
+        "storage": {
+          "title": "Data Storage",
+          "intro": "Your data is stored securely using industry-standard practices:",
+          "items": {
+            "persistent": "User accounts, calculation history, and license key data are stored persistently in Supabase database",
+            "passwords": "Passwords are not stored by our application - they are securely handled by Supabase's authentication service",
+            "agricultural": "Agricultural data is associated with your user account for personalized service",
+            "weather": "Weather data is cached temporarily for performance optimization",
+            "analytics": "Usage statistics are anonymized and aggregated for analytics"
+          }
+        },
+        "security": {
+          "title": "Security Measures",
+          "intro": "We implement comprehensive security measures to protect your data:",
+          "items": {
+            "encryption": "Encrypted data transmission (HTTPS/TLS)",
+            "infrastructure": "Supabase's robust security infrastructure and compliance standards",
+            "rls": "Row Level Security (RLS) ensuring users can only access their own data",
+            "updates": "Regular security updates and patches",
+            "access": "Access controls and monitoring",
+            "auth": "Secure authentication mechanisms"
+          }
+        }
+      },
+      "thirdPartyServices": {
+        "title": "4. Third-Party Services",
+        "supabase": {
+          "title": "Supabase (Database and Authentication)",
+          "intro": "We use Supabase as our primary backend service provider:",
+          "items": {
+            "auth": "User authentication and account management",
+            "database": "Database hosting for calculation history and user profiles",
+            "functions": "Serverless functions (Edge Functions) for license key activation",
+            "processing": "Your data is processed and stored by Supabase on our behalf",
+            "compliance": "Supabase complies with industry security standards and regulations"
+          }
+        },
+        "weather": {
+          "title": "Weather Data Providers",
+          "intro": "We use third-party weather services to provide current temperature data:",
+          "items": {
+            "api": "OpenWeatherMap API for real-time temperature data",
+            "coordinates": "Location coordinates are used only for weather station selection",
+            "privacy": "No personal information is shared with weather providers",
+            "anonymized": "Weather data requests are anonymized"
+          }
+        },
+        "analytics": {
+          "title": "Analytics and Monitoring",
+          "content": "We may use analytics tools to understand service usage and improve performance. All analytics data is anonymized and does not contain personal information."
+        }
+      },
+      "cookies": {
+        "title": "5. Cookies and Tracking",
+        "essential": {
+          "title": "Essential Cookies and Session Management",
+          "intro": "Our service uses essential cookies and session storage for functionality:",
+          "items": {
+            "auth": "Authentication session management (Supabase)",
+            "preferences": "User preference storage (language, units)",
+            "calculator": "Calculator state preservation",
+            "analytics": "Basic analytics (anonymized)"
+          },
+          "note": "We do not use tracking cookies or third-party advertising cookies."
+        }
+      },
+      "dataSharing": {
+        "title": "6. Data Sharing",
+        "noSelling": {
+          "title": "No Data Selling",
+          "intro": "We do not sell, trade, or transfer your personal information to third parties for commercial purposes.",
+          "limited": "Information may only be shared in the following limited circumstances:",
+          "items": {
+            "legal": "Legal requirements or government requests",
+            "protection": "Protection of our rights and property",
+            "emergency": "Emergency situations involving public safety",
+            "providers": "With service providers (like Supabase) who assist in operating our service"
+          }
+        }
+      },
+      "userRights": {
+        "title": "7. Your Rights",
+        "access": {
+          "title": "Access and Control",
+          "intro": "You have the following rights regarding your stored data:",
+          "items": {
+            "access": "Access: View your calculation history through the \"My Calculations\" page",
+            "delete": "Delete: Remove individual calculations or your entire account",
+            "correct": "Correct: Update your account information and preferences",
+            "export": "Export: Request a copy of your data by contacting support",
+            "control": "Control: Manage your privacy settings and data sharing preferences"
+          }
+        },
+        "portability": {
+          "title": "Data Portability and Deletion",
+          "intro": "You can exercise your data rights through:",
+          "items": {
+            "settings": "Account settings and profile management",
+            "individual": "Individual calculation deletion in \"My Calculations\"",
+            "account": "Account deletion (removes all associated data)",
+            "support": "Contacting support for data export requests"
+          }
+        }
+      },
+      "childrenPrivacy": {
+        "title": "8. Children's Privacy",
+        "content": "Our service is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe we have collected such information, please contact us immediately and we will take steps to remove it."
+      },
+      "dataRetention": {
+        "title": "9. Data Retention",
+        "intro": "We retain your data for as long as your account is active or as needed to provide services:",
+        "items": {
+          "account": "Account data: Retained until account deletion",
+          "calculations": "Calculation history: Retained until manually deleted or account deletion",
+          "license": "License key records: Retained for audit and support purposes",
+          "analytics": "Analytics data: Anonymized and retained for service improvement"
+        }
+      },
+      "policyChanges": {
+        "title": "10. Changes to This Policy",
+        "updates": "We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Any changes will be posted on this page with an updated revision date.",
+        "notification": "We will notify users of significant changes through email or prominent notice on our service. Continued use of the service after policy changes constitutes acceptance of the updated policy."
+      },
+      "contact": {
+        "title": "11. Contact Information",
+        "content": "If you have any questions about this Privacy Policy, our privacy practices, or wish to exercise your data rights, please contact us through the appropriate channels provided on our website."
+      }
+    }
+  }
+}

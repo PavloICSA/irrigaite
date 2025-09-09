@@ -1,0 +1,428 @@
+{
+  "landing": {
+    "hero": {
+      "title": "IrrigAIte UA",
+      "subtitle": "ML-Driven PET & Irrigation Rates Assessment Tailored for Ukraine",
+      "description": "Harness the power of machine learning to optimize your irrigation decisions with precise evapotranspiration calculations and intelligent recommendations for Ukrainian agriculture.",
+      "cta": {
+        "getStarted": "Get Started",
+        "signIn": "Sign In",
+        "startEvaluation": "Start PET Evaluation"
+      }
+    },
+    "features": {
+      "title": "Features & Benefits",
+      "subtitle": "IrrigAIte is a comprehensive tool designed specifically for Ukrainian agricultural conditions",
+      "regionalPrecision": {
+        "title": "Regional Precision",
+        "description": "Accurate calculations for all Ukrainian regions with region-specific models."
+      },
+      "realTimeWeather": {
+        "title": "Real-time Weather",
+        "description": "Current temperature data integration for accurate PET calculations."
+      },
+      "scientificFormula": {
+        "title": "Scientific Formula",
+        "description": "Robust ML models based on academic studies in the field of irrigated agriculture and water management."
+      },
+      "irrigationGuidance": {
+        "title": "Irrigation Guidance",
+        "description": "Complete irrigation recommendations based on crop type, growing stages, ecological conditions and irrigation technique."
+      },
+      "sustainability": {
+        "title": "Sustainability & Forecasting",
+        "description": "Decision-making support for sustainable agriculture and minimizing risks associated with weather changes."
+      },
+      "saveResults": {
+        "title": "Save Your Results",
+        "description": "Easily save and access your PET and irrigation rate calculations for future reference, tracking, or reporting — ideal for farmers, consultants, and scientists."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Simple steps to get precise irrigation recommendations",
+      "step1": {
+        "title": "Select Your Region",
+        "description": "Click on your region on the interactive map of Ukraine."
+      },
+      "step2": {
+        "title": "Get PET Calculation",
+        "description": "Real-time weather data is used to calculate precise evapotranspiration."
+      },
+      "step3": {
+        "title": "Receive Recommendations",
+        "description": "Get detailed irrigation guidance based on your crop and soil conditions."
+      }
+    },
+    "benefits": {
+      "title": "Why Choose IrrigAIte UA?",
+      "scientificallyAccurate": {
+        "title": "Scientifically Accurate",
+        "description": "Based on robust academic research specific to Ukrainian conditions."
+      },
+      "realTimeData": {
+        "title": "Real-time Data",
+        "description": "Current weather conditions for the most accurate calculations."
+      },
+      "comprehensiveCoverage": {
+        "title": "Comprehensive Coverage",
+        "description": "All Ukrainian regions with region-specific adjustments."
+      },
+      "easyToUse": {
+        "title": "Easy to Use",
+        "description": "Intuitive interface designed for crop producers and scientists."
+      },
+      "costEffective": {
+        "title": "Cost-Effective Solution",
+        "description": "Reduce water waste and optimize irrigation costs with data-driven recommendations."
+      },
+      "multilingual": {
+        "title": "Multilingual Support",
+        "description": "Available in both Ukrainian and English to serve diverse agricultural communities."
+      }
+    },
+    "cta": {
+      "title": "Ready to Optimize Your Irrigation?",
+      "subtitle": "Start calculating precise evapotranspiration and irrigation rates right now!"
+    }
+  },
+  "guidelines": {
+    "title": "Guidelines",
+    "subtitle": "How to use the IrrigAIte UA app effectively",
+    "about": {
+      "title": "About This Application",
+      "description": "This IrrigAIte UA uses scientifically validated methods based on international agricultural standards and research specific to Ukrainian agricultural conditions. The system incorporates:",
+      "features": {
+        "scientificModels": "Scientifically validated models calibrated for Ukrainian regions",
+        "realTimeWeather": "Real-time weather data integration for accurate estimations",
+        "localAdjustments": "Adjustments for local climatic conditions across all Ukrainian regions",
+        "internationalStandards": "Adherence to international agricultural standards for crop water requirements"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": {
+        "number": "1",
+        "title": "Select Your Region",
+        "description": "Choose your Ukrainian region from the interactive region selector. You can:",
+        "details": {
+          "search": "Search for your region using the search bar",
+          "browse": "Browse through all 24 Ukrainian regions",
+          "select": "Click on your desired region card to select it"
+        }
+      },
+      "step2": {
+        "number": "2",
+        "title": "Get PET Calculation",
+        "description": "The system automatically:",
+        "details": {
+          "fetchWeather": "Fetches real-time weather data for your selected region",
+          "applyAdjustments": "Applies region-specific adjustments for local climate conditions",
+          "calculatePET": "Calculates potential evapotranspiration (PET) in mm/day",
+          "displayResults": "Displays the current temperature and PET value"
+        }
+      },
+      "step3": {
+        "number": "3",
+        "title": "Calculate Irrigation Needs (Optional)",
+        "description": "For detailed irrigation recommendations, provide:",
+        "details": {
+          "cropInfo": "Crop type and planting date",
+          "soilMoisture": "Current soil moisture parameters",
+          "climateClass": "Regional climate classification"
+        },
+        "note": "The system will determine crop growth stage and provide specific irrigation timing and amounts."
+      }
+    },
+    "workflow": {
+      "title": "Detailed Workflow",
+      "irrigationAssessment": {
+        "title": "Irrigation Requirements Assessment",
+        "steps": {
+          "selectCrop": "Select crop type and climate classification",
+          "enterDates": "Enter planting and current dates",
+          "provideSoil": "Provide soil moisture parameters",
+          "reviewRecommendations": "Review irrigation recommendations",
+          "applyRecommendations": "Apply recommendations to your irrigation schedule"
+        }
+      }
+    },
+    "inputRequirements": {
+      "title": "Input Requirements",
+      "referenceNote": "Not sure about actual field capacity, irrigation efficiency or active layer depth?",
+      "referenceLink": "View the 📘 Reference Book",
+      "referenceLinkText": "to find out the range of possible values.",
+      "requiredForPET": {
+        "title": "Required for PET",
+        "oblastSelection": "Ukrainian oblast selection",
+        "weatherData": "Weather data (retrieved automatically through OpenWeatherMap Weather API)"
+      },
+      "additionalForIrrigation": {
+        "title": "Additional for Irrigation",
+        "cropType": "Crop type and variety",
+        "plantingDate": "Planting date",
+        "climateType": "Regional climate type"
+      },
+      "soilParameters": {
+        "title": "Soil Parameters",
+        "soilMoisture": "Gravimetric soil moisture (%)",
+        "activeLayer": "Active layer depth (mm)",
+        "bulkDensity": "Bulk density (t/m³)",
+        "fieldCapacity": "Field water-holding capacity (%)",
+        "irrigationEfficiency": "Irrigation efficiency (%)"
+      }
+    },
+    "bestPractices": {
+      "title": "Best Practices",
+      "accurateResults": {
+        "title": "For Accurate Results",
+        "currentMeasurements": "Use current soil moisture measurements when available",
+        "selectVariety": "Select the crop variety that most closely matches your planting",
+        "considerMicroclimate": "Consider local microclimatic conditions that may affect results",
+        "validateExpertise": "Validate recommendations against local agricultural expertise"
+      },
+      "irrigationPlanning": {
+        "title": "For Irrigation Planning",
+        "checkRegularly": "Check calculations regularly during the growing season",
+        "adjustRainfall": "Adjust for rainfall and other water inputs",
+        "considerSoil": "Consider soil type and drainage characteristics",
+        "monitorStress": "Monitor crop stress indicators in the field"
+      },
+      "dataQuality": {
+        "title": "Data Quality",
+        "accurateDates": "Ensure accurate planting dates for growth stage calculations",
+        "representativeSamples": "Use representative soil samples for moisture measurements",
+        "systemEfficiency": "Account for irrigation system efficiency in application rates",
+        "keepRecords": "Keep records for seasonal comparison and validation"
+      }
+    },
+    "scientificFoundation": {
+      "title": "Scientific Foundation",
+      "methodology": {
+        "title": "Methodology",
+        "internationalStandards": "Based on internationally recognized agricultural standards",
+        "regionalData": "Incorporates regional climate data and adjustments",
+        "cropModels": "Uses established crop development models",
+        "ukrainianValidation": "Validated against Ukrainian agricultural conditions"
+      },
+      "dataSources": {
+        "title": "Data Sources",
+        "meteorologicalData": "Real-time meteorological data",
+        "cropCoefficients": "International crop coefficient databases",
+        "ukrainianResearch": "Ukrainian agricultural research",
+        "climateClassification": "Regional climate classification systems"
+      },
+      "note": "The IrrigAIte UA provides scientifically-based estimates for irrigation planning. Results should be used as guidance alongside local agricultural expertise, field observations, and site-specific conditions for optimal irrigation management."
+    }
+  },
+  "about": {
+    "header": {
+      "title": "About Us",
+      "subtitle": "Learn about our mission and the science behind the IrrigAIte UA"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "paragraph1": "IrrigAIte UA is dedicated to supporting Ukrainian agriculture through precision irrigation guidance. Our mission is to provide farmers and agronomists with scientifically accurate, region-specific evapotranspiration calculations that optimize water usage and improve crop yields.",
+      "paragraph2": "We believe that sustainable agriculture is essential for Ukraine's future, and precise water management plays a crucial role in achieving this goal. Our tools combine cutting-edge research with practical agricultural needs to deliver actionable insights for irrigation decisions."
+    },
+    "science": {
+      "title": "The Science Behind Our Apllication",
+      "mlApproach": {
+        "title": "ML-Driven Approach",
+        "description": "Our PET calculation is powered by a robust, machine learning–based model specifically calibrated for Ukrainian agricultural conditions. It integrates historical temperature data and region-specific coefficients for all oblasts, providing highly accurate predictions across diverse climatic zones. Trained on extensive data from 1971 to 2024, the model delivers exceptional performance, with an R² of 0.85, RMSE of 0.63 mm, and MAE of 0.48 mm, thus ensuring both reliability and precision for irrigation planning."
+      },
+      "faoGuidelines": {
+        "title": "FAO Guidelines Integration",
+        "description": "The irrigation recommendations follow FAO (Food and Agriculture Organization) guidelines for crop evapotranspiration calculations (namely, FAO Irrigation and drainage paper 56). We use established crop coefficients and growth stage classifications to provide reliable ETc estimations."
+      },
+      "realTimeWeather": {
+        "title": "Real-time Weather Integration",
+        "description": "Our tool integrates with OpenWeatherMap API to fetch current temperature data for accurate real-time PET calculations. This ensures that irrigation recommendations are based on current atmospheric conditions rather than historical averages."
+      },
+      "soilMoisture": {
+        "title": "Soil Moisture Assessment",
+        "description": "The system incorporates soil moisture content calculations using gravimetric soil moisture, active layer depth, bulk density measurements and general soil water properties. This comprehensive approach ensures irrigation recommendations account for actual soil water availability."
+      }
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "scientificAccuracy": {
+        "title": "Scientific Accuracy",
+        "description": "Every calculation in our system is based on peer-reviewed research and established agricultural science principles. We continuously update our models to reflect the latest scientific findings."
+      },
+      "userFriendlyDesign": {
+        "title": "User-Friendly Design",
+        "description": "We believe that powerful tools should be accessible to everyone. Our interface is designed to be intuitive for farmers, students, and researchers alike, regardless of their technical background."
+      },
+      "continuousImprovement": {
+        "title": "Continuous Improvement",
+        "description": "We actively seek feedback from users and incorporate new research findings to improve our calculations and recommendations. Your input helps us serve the agricultural community better."
+      },
+      "openAccess": {
+        "title": "Open Access",
+        "description": "This tool is offered as a free or paid Software-as-a-Service (SaaS) solution. We believe that access to scientifically grounded irrigation guidance should be available to all, regardless of economic circumstances."
+      }
+    },
+    "technical": {
+      "title": "Technical Implementation",
+      "dataSources": {
+        "title": "Data Sources",
+        "items": {
+          "realTimeWeather": "Real-time weather data from reliable meteorological API",
+          "faoCropCoefficients": "FAO crop coefficient tables",
+          "ukrainianResearch": "Ukrainian agricultural research for regional evaluations using ML-driven approach",
+          "soilParameters": "Soil parameter databases for accurate moisture calculations"
+        }
+      },
+      "calculationMethodology": {
+        "title": "Calculation Methodology",
+        "items": {
+          "regionalModels": "Regional ML models for precise PET evaluation",
+          "growthStage": "Growth stage determination based on planting dates",
+          "cropCoefficient": "Crop coefficient application for ETc calculation",
+          "soilMoisture": "Soil moisture content assessment",
+          "irrigationRecommendations": "Irrigation timing and amount recommendations"
+        }
+      },
+      "qualityAssurance": {
+        "title": "Quality Assurance",
+        "items": {
+          "continuousValidation": "Continuous validation against field measurements",
+          "regularCalibration": "Regular calibration of regional coefficients",
+          "errorHandling": "Error handling for edge cases and data inconsistencies",
+          "userFeedback": "User feedback integration for model improvements"
+        }
+      }
+    },
+    "otherApps": {
+      "title": "🚀 Check Our Other Apps",
+      "waterqAi": {
+        "title": "WaterQ AI",
+        "description": "Elevate your irrigation strategy with WaterQ AI, the advanced AI tool for precise and thorough water quality analysis. By adhering to rigorous agronomic criteria and incorporating methodologies from the FAO, DSTU 2730:2015, and global scientific standards, WaterQ AI empowers you to make informed decisions for sustainable and productive agriculture.",
+        "button": "Explore WaterQ AI"
+      },
+      "cropMap": {
+        "title": "Ukraine Crop Production Map",
+        "description": "Designed for agricultural researchers and remote sensing specialists, this interactive web application offers a compelling visual and analytical platform. It seamlessly merges major crop yield data from Ukraine with diverse remote sensing products. Users can explore various vegetation indices (e.g., NDVI, EVI, NDMI) and utilize integrated statistical functionalities like correlation matrices, regression analysis, trend analysis, and forecasting. This empowers academicians to perform rigorous, data-driven investigations into the complex dynamics between crop performance and observed remote sensing signatures.",
+        "button": "View Crop Map"
+      },
+      "soilClimateDb": {
+        "title": "Ukraine Soil and Climate Database",
+        "description": "This dedicated web application presents a comprehensive and integrated database of Ukraine's soil and climate characteristics. Developed to support scientific endeavors in agriculture, climatology, ecology, and soil science, the database systematically compiles information derived from traditional land surveys, extensive hydrometeorological observations, and cutting-edge remote sensing data.",
+        "button": "Access Database"
+      }
+    }
+  },
+  "support": {
+    "header": {
+      "title": "Support Us",
+      "subtitle": "Help us continue providing ML-driven agricultural tools"
+    },
+    "hero": {
+      "title": "Support Agricultural Science and Innovation",
+      "description": "Your support helps us maintain and improve innovative ML and AI-driven tools for Ukrainian farmers, agricultural scientists and students."
+    },
+    "waysToSupport": {
+      "title": "Ways to Support",
+      "spreadTheWord": {
+        "title": "Spread the Word",
+        "description": "Share our tool with farmers, students, and agricultural scientists. Word-of-mouth is our most powerful tool for reaching those who need irrigation guidance."
+      },
+      "provideFeedback": {
+        "title": "Provide Feedback",
+        "description": "Help us improve by sharing your experiences, suggestions, and field validation data. Your insights help us make more accurate and useful calculations."
+      },
+      "contributeData": {
+        "title": "Contribute Data",
+        "description": "If you have local weather stations or soil data, sharing this information helps us improve our regional models and provide more accurate recommendations."
+      },
+      "financialSupport": {
+        "title": "Financial Support",
+        "description": "Our tool relies on the OpenWeatherMap API, which limits the number of free evaluations available. By purchasing a license key, you help us cover API costs, maintain server infrastructure, and invest in developing new features. Your support — even a small contribution — makes a big difference and keeps this service running and improving."
+      }
+    },
+    "howFundsAreUsed": {
+      "title": "How Your Support Is Used",
+      "technicalInfrastructure": {
+        "title": "Technical Infrastructure",
+        "items": {
+          "serverHosting": "Server hosting and maintenance",
+          "apiSubscriptions": "OpenWeatherMap API subscriptions",
+          "databaseManagement": "Database management",
+          "securityBackup": "Security and backup systems"
+        }
+      },
+      "developmentResearch": {
+        "title": "Development & Research",
+        "items": {
+          "newFeatures": "New feature development",
+          "mlImprovements": "ML model improvements and validation",
+          "scientificCollaboration": "Scientific research collaboration",
+          "uiEnhancements": "User interface enhancements"
+        }
+      }
+    },
+    "callToAction": {
+      "title": "Ready to Support Agricultural Science and Innovation?",
+      "subtitle": "Share the word about IrrigAIte UA",
+      "shareButton": {
+        "idle": "Share This Tool",
+        "copied": "Link Copied!",
+        "shared": "Shared Successfully!"
+      },
+      "shareInstructions": {
+        "default": "Click to share via your device's native sharing options or copy the link to clipboard.",
+        "copied": "Link copied to clipboard! You can now paste it in your favorite social media or messaging app."
+      }
+    },
+    "shareData": {
+      "title": "IrrigAIte UA - ML-driven PET & Irrigation Calculator",
+      "text": "Check out this free ML-driven evapotranspiration calculator designed specifically for Ukrainian agriculture. Get precise irrigation recommendations based on real-time weather data and scientific models."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team for support, questions, or collaboration opportunities",
+    "info": {
+      "title": "Contact Information",
+      "email": {
+        "title": "Email",
+        "description": "Send us a message and we'll respond as soon as possible."
+      },
+      "hours": {
+        "title": "Response Hours",
+        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM (EET)",
+        "weekend": "Weekend: Limited availability"
+      },
+      "location": {
+        "title": "Location",
+        "description": "Based in Ukraine, serving agricultural communities nationwide."
+      }
+    },
+    "developer": {
+      "title": "Meet the Developer",
+      "name": "Dr. Pavlo Lykhovyd",
+      "role": "Agricultural Engineer & Software Developer",
+      "bio": "Dr. Pavlo Lykhovyd is an agricultural engineer and researcher specializing in irrigation management and precision agriculture. With extensive experience in both agricultural science and software development, he created IrrigAIte UA to help Ukrainian farmers optimize their irrigation practices using data-driven approaches.",
+      "expertise": {
+        "title": "Areas of Expertise",
+        "irrigation": "Irrigation system design and management",
+        "precision": "Precision agriculture technologies",
+        "climate": "Climate data analysis and modeling",
+        "software": "Agricultural software development"
+      }
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "subject": "Subject",
+      "subjectPlaceholder": "What is this regarding?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "submit": "Send Message"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "name": "App Folder Cleanup",
+  "description": "Monitors the app folder for changes and automatically identifies and removes unnecessary files like temporary files, build artifacts, logs, and other clutter to keep the workspace clean",
+  "version": "1",
+  "when": {
+    "type": "userTriggered",
+    "patterns": [
+      "src/**/*",
+      "dist/**/*",
+      "node_modules/**/*",
+      "*.log",
+      "*.tmp",
+      "*.temp",
+      "*.md",
+      "*.json"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Review the app folder structure and identify unnecessary files that can be safely removed. Look for: 1) Temporary files (*.tmp, *.temp, *.log), 2) Redundant documentation files (multiple similar .md files), 3) Unused build artifacts, 4) Duplicate or outdated files, 5) Test reports and validation files that are no longer needed. Provide a list of files to delete and explain why each file is unnecessary, ensuring core application files, configuration, and essential documentation are preserved."
+  }
+}
