@@ -2,6 +2,9 @@
 
 A precision agriculture web application designed for Ukrainian farmers to optimize irrigation decisions through advanced PET (Potential Evapotranspiration) calculations and ML-driven recommendations.
 
+## Try It Now ##
+https://irrigaite.web.app/
+
 ## 🚀 Features
 
 ### Core Functionality
